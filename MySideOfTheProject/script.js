@@ -26,3 +26,10 @@ const averageAge = (railsAge + rubyAge) / 2 ;
 // By Using paratesis we can precidence is given to the values in the brackets
 console.log(averageAge);
 
+const firstName = "Rails";
+const firstNameBirthYear = 1993;
+const currentYear = 2022;
+const Age = firstNameBirthYear - currentYear;
+const job = "Programmer"; 
+
+console.log(`I'm ${firstName} currently ${Age} old and my Job is ${job}  `);
