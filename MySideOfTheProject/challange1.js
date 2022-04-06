@@ -1,14 +1,13 @@
  
 
-const score = 100 - 150;
-let teamName  = prompt("Enter Your Name first: ")
-const enter =  Number(prompt("Enter a Number to win!!!: "));
-if(enter === score){
-    console.log("Your team" + " " + teamName + " scores " + enter + " " + "points")
-}else if(enter < score){
-    console.log ("Your team" + " " + teamName + " scores " + enter + " " + "points")
-}else if (enter > score){
-    console.log("Your team" + " " + teamName + " scores " + enter + " " + "points")
-}//else if(enter != score || enter < score && enter >= score){
- //   console.log("You Win!!!!")
-//}
+const scoreDolphin = (96 + 108 + 89) / 3 ;
+const scorekoalas = (88 + 91 + 110) / 3 ;
+console.log(scoreDolphin, scorekoalas);
+
+if(scoreDolphin > scorekoalas){
+    console.log('Dolphins win the Trophy 🏆')
+} else if (scorekoalas > scoreDolphin){
+    console.log("Koalas won the Trophy 🏆")
+} else if (scoreDolphin === scorekoalas){
+    console.log("Its A drawn Game")
+}
