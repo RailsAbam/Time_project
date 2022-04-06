@@ -1,6 +1,6 @@
  
 
-const score = 100;
+const score = 100 - 150;
 let teamName  = prompt("Enter Your Name first: ")
 const enter =  Number(prompt("Enter a Number to win!!!: "));
 if(enter === score){
