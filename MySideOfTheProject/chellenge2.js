@@ -18,3 +18,10 @@ if(day === "monday"){
     console.log("It Nothing !!")
 )
 
+//conditional operator
+const age = 23;
+age >= 18 ? console.log("I like to drinl"): console.log("I like to drink water!!!")
+
+//Tenay  operator
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink) 
