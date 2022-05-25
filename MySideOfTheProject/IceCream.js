@@ -58,3 +58,9 @@ else {
     size = "NA";
 }
 console.log(size);
+
+
+//ternarY Operator
+const isGoing = true;
+const  color = isGoing ? "green" : "red";
+console.log(color);
